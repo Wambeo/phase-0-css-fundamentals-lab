@@ -3,3 +3,43 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1{
+  text-align: center;
+}
+#featured-property{
+  display: grid;
+  place-items: center;
+}
+#featured-property figcaption{
+  font-size: small;
+  text-align: center;
+
+}
+#featured-property p{
+  text-align: center;
+  width: 800px;
+  margin-bottom: 5px;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: gray;
+}
+#details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: blueviolet;
+}
+
+#details div{
+  text-align: center;
+  width: 25%;
+}

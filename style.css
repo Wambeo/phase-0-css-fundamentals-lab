@@ -36,7 +36,7 @@ nav a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: blueviolet;
+  background-color: red;
 }
 
 #details div{
